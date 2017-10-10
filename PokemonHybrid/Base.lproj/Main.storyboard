@@ -65,6 +65,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="abilityLabel" destination="knb-Qb-Cux" id="rN6-hc-kLm"/>
+                        <outlet property="idLabel" destination="3Eq-WZ-sGJ" id="lPf-ZK-ZWs"/>
+                        <outlet property="nameLabel" destination="Gsv-2q-5YX" id="unL-T6-odC"/>
+                        <outlet property="searchBar" destination="Oae-Wc-f5H" id="PcU-WQ-pxN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
